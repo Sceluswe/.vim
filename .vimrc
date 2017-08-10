@@ -1,3 +1,4 @@
+" The local .vimrc file.
 execute pathogen#infect()
 
 filetype plugin indent on
@@ -6,6 +7,13 @@ syntax on
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+hi Comment ctermfg=DarkGreen ctermbg=black
+" hi Special ctermbg=black
+" hi SpecialKey ctermbg=black
+" hi Title ctermbg=black
+" hi Directory ctermbg=red
+" hi Visual ctermfg=green ctermbg=black
+" hi vimOption ctermfg=202 ctermbg=black
 
 " Set vim-airline variable to always active.
 set laststatus=2
@@ -76,3 +84,12 @@ fun! s:ToggleMouse()
         echo "Mouse is for terminal"
     endif
 endfunction
+
+" Show syntax highlighting groups for word under cursor
+nmap <C-S-P> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+  if !exists("*synstack")
+    return
+  endif
+  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
