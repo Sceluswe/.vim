@@ -7,13 +7,9 @@ syntax on
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
-hi Comment ctermfg=DarkGreen ctermbg=black
-" hi Special ctermbg=black
-" hi SpecialKey ctermbg=black
-" hi Title ctermbg=black
-" hi Directory ctermbg=red
-" hi Visual ctermfg=green ctermbg=black
-" hi vimOption ctermfg=202 ctermbg=black
+" set the color of the line number.
+highlight LineNr ctermfg=grey ctermbg=235
+highlight Comment ctermfg=40 ctermbg=235
 
 " Set vim-airline variable to always active.
 set laststatus=2
@@ -33,8 +29,6 @@ set nowrap
 set tabstop=4
 " always show line numbers
 set number
-" set the color of the line number.
-hi LineNr ctermfg=grey
 " Allow backspacing over everything in insert mode.
 set backspace=indent,eol,start
 
