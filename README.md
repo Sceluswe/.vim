@@ -6,15 +6,19 @@ Download the package and put the .vimrc file in /home/$yourusername/ on Ubuntu a
 
 ## Packages
 https://vimawesome.com/plugin/delimitmate
+
 https://vimawesome.com/plugin/nerdtree-red
+
 https://vimawesome.com/plugin/onedark-vim
+
 https://vimawesome.com/plugin/syntastic
+
 https://vimawesome.com/plugin/tcomment
+
 https://vimawesome.com/plugin/vim-airline-themes
+
 https://vimawesome.com/plugin/vim-airline
+
 https://vimawesome.com/plugin/fugitive-vim
+
 https://vimawesome.com/plugin/vim-gitgutter
-
-## Result
-
-
