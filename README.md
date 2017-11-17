@@ -36,6 +36,7 @@ https://vimawesome.com/plugin/vim-gitgutter
 The .vimrc file contains some of my prefered modifications and additional fixes that were relevant in my case.
 
 - Enter paste mode by pressing F2
+- ttimeoutlen set to 0 to remove delays when switching modes.
 
 
 ## Result
