@@ -34,5 +34,5 @@ The .vimrc file contains some of my prefered modifications and additional fixes 
 2. Add full mouse support.
 
 ## Fixed Issues
-1. Find out why the syntax checker currently doesn't work, fix it.
-  - jshint was missing.
+- Find out why the syntax checker currently doesn't work, fix it.
+    - jshint was missing.
