@@ -30,6 +30,6 @@ The .vimrc file contains some of my prefered modifications and additional fixes 
 ![Imgur](https://i.imgur.com/Qv5VYnU.png)
 
 ## Future improvements
-1. Change the airline to fit the overall style better.
+1. Change the airline and tabline to fit the overall style better.
 2. Add full mouse support.
 3. Find out why the syntax checker currently doesn't work, fix it.
