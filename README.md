@@ -1,8 +1,14 @@
 # .vim
-My Vim setup using pathogen as a package manager.
+My Vim setup using Pathogen as a package manager. It does not use submodules yet. I designed it to be "plug-and-play". That is also why I chose Pathogen as a package manager, it required nothing from the user. 
 
 ## Installation
-Download the package and put the .vimrc file in /home/$yourusername/ on Ubuntu and if you're using the Windows 10 Ubuntu Kernel.
+Download the package and place it in /home/$YOUR_USERNAME/.vim and then copy the .vimrc file into /home/$yourusername/ on Ubuntu and if you're using the Windows 10 Ubuntu Kernel.
+
+```
+cd /home/$YOUR_USERNAME
+git clone "https://github.com/Sceluswe/.vim/"
+cp /home/$YOUR_USERNAME/.vim/.vimrc /home/$YOUR_USERNAME/
+```
 
 ## Packages
 https://vimawesome.com/plugin/delimitmate
