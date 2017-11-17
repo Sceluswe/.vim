@@ -27,4 +27,4 @@ https://vimawesome.com/plugin/vim-gitgutter
 The .vimrc file contains some of my prefered modifications and additional fixes that were relevant in my case.
 
 ## Result
-![none](https://imgur.com/Qv5VYnU)
+[Imgur](https://i.imgur.com/Qv5VYnU.png)
