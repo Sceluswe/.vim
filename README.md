@@ -44,8 +44,7 @@ The .vimrc file contains some of my prefered modifications and additional fixes 
 
 
 ## Result
-![Imgur](https://i.imgur.com/Qv5VYnU.png)
-
+![Imgur](https://i.imgur.com/eWvxxEJ.png)
 
 ## Future improvements
 1. Change the airline and tabline to fit the overall style better.
