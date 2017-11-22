@@ -38,6 +38,10 @@ The .vimrc file contains some of my prefered modifications and additional fixes 
 - Enter paste mode by pressing F2
 - ttimeoutlen set to 0 to remove delays when switching modes.
 
+### Fugitive
+- `:Gstatus` Does `git status` inside Vim. Place cursor at the file line and press `-` to add/reset files.
+- `:Gcommit -m "your message"` Does `git commit -m` inside Vim.
+
 
 ## Result
 ![Imgur](https://i.imgur.com/Qv5VYnU.png)
