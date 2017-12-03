@@ -10,6 +10,12 @@ cd /home/$YOUR_USERNAME
 git clone "https://github.com/Sceluswe/.vim/"
 cp /home/$YOUR_USERNAME/.vim/.vimrc /home/$YOUR_USERNAME/
 ```
+If you're using Debian:
+```
+cd ~
+git clone "https://github.com/Sceluswe/.vim"
+cp .vim/.vimrc .
+```
 
 
 ## Packages
