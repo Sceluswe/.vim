@@ -29,13 +29,15 @@ https://vimawesome.com/plugin/syntastic
 
 https://vimawesome.com/plugin/tcomment
 
-https://vimawesome.com/plugin/vim-airline-themes
+https://vimawesome.com/plugin/lightline-vim
 
-https://vimawesome.com/plugin/vim-airline
+https://vimawesome.com/plugin/buftabline
 
 https://vimawesome.com/plugin/fugitive-vim
 
 https://vimawesome.com/plugin/vim-gitgutter
+
+
 
 
 ## Modifications
