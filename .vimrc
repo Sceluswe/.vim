@@ -6,28 +6,30 @@ syntax on
 
 colorscheme onedark
 
+" Set vim-airline variable to always active.
+set laststatus=2
+let g:airline_theme='wombat'
+let g:airline#extensions#tabline#enabled=1
+
+" set the color of the line number.
+highlight LineNr ctermfg=grey
+highlight Comment ctermfg=45
+
+" highlight CursorLine
+set cursorline
+highlight CursorLineNR ctermfg=white ctermbg=darkgrey
 
 " Fix for the background graphical glitch (in windows 10, maybe elsewhere).
 if &term =~ '256color'
-  " disable Background Color Erase (BCE) so that color schemes
-  " render properly when inside 256-color tmux and GNU screen.
-  " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
+" disable Background Color Erase (BCE) so that color schemes
+" render properly when inside 256-color tmux and GNU screen.
+" see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
 endif
 
 " Fix to the delay when switching modes.
 " Also removes delay when shift+O
 set ttimeoutlen=0
-
-" set the color of the line number.
-highlight LineNr ctermfg=grey ctermbg=235
-highlight Comment ctermfg=40 ctermbg=235
-
-" Set vim-airline variable to always active.
-set laststatus=2
-let g:airline_theme='wombat'
-let g:airline#extensions#tabline#enabled=1
-
 
 " Activate pastebuffer using F2
 set pastetoggle=<F2>
