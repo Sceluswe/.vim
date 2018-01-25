@@ -55,10 +55,10 @@ The .vimrc file contains some of my prefered modifications and additional fixes 
 ![Imgur](https://i.imgur.com/eWvxxEJ.png)
 
 ## Future improvements
-1. Change the airline and tabline to fit the overall style better.
-2. Add full mouse support.
+1. Add full mouse support.
 
 
 ## Fixed Issues
+- Change the airline and tabline to fit the overall style better.
 - Find out why the syntax checker currently doesn't work, fix it.
     - jshint was missing.
