@@ -6,10 +6,18 @@ syntax on
 
 colorscheme onedark
 
-" Set vim-airline variable to always active.
+" Set lightline options.
 set laststatus=2
-let g:airline_theme='wombat'
-let g:airline#extensions#tabline#enabled=1
+let g:lightline = {
+	  \ 'colorscheme': 'onedark',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
 
 " set the color of the line number.
 highlight LineNr ctermfg=grey
