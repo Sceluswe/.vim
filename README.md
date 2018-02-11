@@ -29,17 +29,19 @@ https://vimawesome.com/plugin/syntastic
 
 https://vimawesome.com/plugin/tcomment
 
-https://vimawesome.com/plugin/vim-airline-themes
+https://vimawesome.com/plugin/lightline-vim
 
-https://vimawesome.com/plugin/vim-airline
+https://vimawesome.com/plugin/buftabline
 
 https://vimawesome.com/plugin/fugitive-vim
 
 https://vimawesome.com/plugin/vim-gitgutter
 
 
+
+
 ## Modifications
-The .vimrc file contains some of my prefered modifications and additional fixes that were relevant in my case.
+The .vimrc file contains some of my prefered modifications and additional fixes.
 
 - Enter paste mode by pressing F2
 - ttimeoutlen set to 0 to remove delays when switching modes.
@@ -53,10 +55,10 @@ The .vimrc file contains some of my prefered modifications and additional fixes 
 ![Imgur](https://i.imgur.com/eWvxxEJ.png)
 
 ## Future improvements
-1. Change the airline and tabline to fit the overall style better.
-2. Add full mouse support.
+1. Add full mouse support.
 
 
 ## Fixed Issues
+- Change the airline and tabline to fit the overall style better.
 - Find out why the syntax checker currently doesn't work, fix it.
     - jshint was missing.
