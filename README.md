@@ -17,6 +17,8 @@ git clone "https://github.com/Sceluswe/.vim"
 cp .vim/.vimrc .
 ```
 
+You might have to clone onedark anew. Sometimes it doesn't work.
+
 
 ## Packages
 https://vimawesome.com/plugin/delimitmate
