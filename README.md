@@ -58,6 +58,7 @@ The .vimrc file contains some of my prefered modifications and additional fixes.
 
 ## Future improvements
 1. Add full mouse support.
+2. Replace buf-tabline with something better (that also works on windows).
 
 
 ## Fixed Issues
