@@ -54,7 +54,7 @@ The .vimrc file contains some of my prefered modifications and additional fixes.
 
 
 ## Result
-![Imgur](https://i.imgur.com/eWvxxEJ.png)
+![Imgur](https://i.imgur.com/24sEy7D.png)
 
 ## Future improvements
 1. Add full mouse support.
