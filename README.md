@@ -49,8 +49,8 @@ The .vimrc file contains some of my prefered modifications and additional fixes.
 - ttimeoutlen set to 0 to remove delays when switching modes.
 
 ### Fugitive
-- `:Gstatus` Does `git status` inside Vim. Place cursor at the file line and press `-` to add/reset files.
-- `:Gcommit -m "your message"` Does `git commit -m` inside Vim.
+- `:Gstatus` does `git status` inside Vim. Place cursor at the file line and press `-` to add/reset files.
+- `:Gcommit -m "your message"` does `git commit -m` inside Vim.
 
 
 ## Result
