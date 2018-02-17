@@ -46,6 +46,8 @@ set pastetoggle=<F2>
 " Hides buffers instead of closing them. Allowing me to open new files without
 " saving. Also saves the undo-buffer of my previous file.
 set hidden
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-P> :bprev<CR>
 " Don't wrap lines:
 set nowrap
 " a tab is four spaces:
