@@ -17,6 +17,8 @@ git clone "https://github.com/Sceluswe/.vim"
 cp .vim/.vimrc .
 ```
 
+You might have to clone onedark anew. Sometimes it doesn't work.
+
 
 ## Packages
 https://vimawesome.com/plugin/delimitmate
@@ -56,9 +58,9 @@ The .vimrc file contains some of my prefered modifications and additional fixes.
 
 ## Future improvements
 1. Add full mouse support.
+2. Replace buf-tabline with something better (that also works on windows).
 
 
 ## Fixed Issues
 - Change the airline and tabline to fit the overall style better.
 - Find out why the syntax checker currently doesn't work, fix it.
-    - jshint was missing.
