@@ -43,6 +43,9 @@ set ttimeoutlen=0
 " Activate pastebuffer using F2
 set pastetoggle=<F2>
 
+" Open NERDTree
+map <F3> :NERDTree<CR>
+
 " Custom: My custom changes:
 " Hides buffers instead of closing them. Allowing me to open new files without
 " saving. Also saves the undo-buffer of my previous file.
