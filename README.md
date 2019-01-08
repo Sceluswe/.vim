@@ -6,9 +6,9 @@ My Vim setup using Pathogen as a package manager. It does not use submodules yet
 If you're using Ubuntu or the Windows 10 Ubuntu Kernel:
 
 ```
-cd /home/$YOUR_USERNAME
+cd ~
 git clone "https://github.com/Sceluswe/.vim/"
-cp /home/$YOUR_USERNAME/.vim/.vimrc /home/$YOUR_USERNAME/
+cp ~/.vim/.vimrc ~
 ```
 If you're using Debian:
 ```
