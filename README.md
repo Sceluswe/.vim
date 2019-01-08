@@ -14,7 +14,7 @@ If you're using Debian:
 ```
 cd ~
 git clone "https://github.com/Sceluswe/.vim"
-cp .vim/.vimrc .
+cp ~/.vim/.vimrc ~
 ```
 
 If you're using Cygwin:
