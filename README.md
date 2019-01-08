@@ -21,7 +21,7 @@ If you're using Cygwin:
 ```
 cd ~
 git clone "https://github.com/Sceluswe/.vim"
-cp -r .vim vim80
+mv .vim vim80
 cp vim80/.vimrc .
 cp -rf vim80 ../../usr/share/vim/
 rm -r vim80
