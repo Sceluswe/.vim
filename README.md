@@ -3,7 +3,7 @@ My Vim setup using Pathogen as a package manager. It does not use submodules yet
 
 
 ## Installation
-Download the package and place it in /home/$YOUR_USERNAME/.vim and then copy the .vimrc file into /home/$yourusername/ on Ubuntu and if you're using the Windows 10 Ubuntu Kernel.
+Download the package and place it in /home/$YOUR_USERNAME/.vim and then copy the .vimrc file into /home/$YOUR_USERNAME/ on Ubuntu and if you're using the Windows 10 Ubuntu Kernel.
 
 ```
 cd /home/$YOUR_USERNAME
