@@ -23,7 +23,8 @@ cd ~
 git clone "https://github.com/Sceluswe/.vim"
 mv .vim vim80
 cp vim80/.vimrc .
-cp -rf vim80 ../../usr/share/vim/
+rm vim80/README.md && rm vim80/.vimrc && rm -rf vim80/.git
+cp -rf vim80 ../../usr/share/vim/vim80
 rm -rf vim80
 ```
 
