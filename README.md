@@ -17,6 +17,15 @@ git clone "https://github.com/Sceluswe/.vim"
 cp .vim/.vimrc .
 ```
 
+If you're using Cygwin:
+```
+cd ~
+git clone "https://github.com/Sceluswe/.vim"
+cp .vim vim80
+cp -rf vim80 ../../usr/share/vim/
+rm -r vim80
+```
+
 You might have to clone onedark anew. Sometimes it doesn't work.
 
 
