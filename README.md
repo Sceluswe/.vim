@@ -24,7 +24,7 @@ git clone "https://github.com/Sceluswe/.vim"
 mv .vim vim80
 cp vim80/.vimrc .
 cp -rf vim80 ../../usr/share/vim/
-rm -r vim80
+rm -rf vim80
 ```
 
 You might have to clone onedark anew. Sometimes it doesn't work.
