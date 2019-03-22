@@ -58,6 +58,7 @@ The .vimrc file contains some of my prefered modifications and additional fixes.
 
 - Enter paste mode by pressing F2
 - Press F3 to open the NERDTree
+- Press TAB or shift-TAB to switch between tabs.
 - ttimeoutlen set to 0 to remove delays when switching modes.
 
 ### Fugitive
