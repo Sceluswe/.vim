@@ -3,7 +3,7 @@ My Vim setup using Pathogen as a package manager. It does not use submodules yet
 
 
 ## Installation
-On Ubuntu or the Windows 10 Ubuntu Kernel, Debian or in Cygwin:
+On Ubuntu, the Windows 10 Ubuntu Kernel, Debian or in Cygwin:
 
 ```
 cd ~
