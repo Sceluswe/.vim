@@ -11,7 +11,9 @@ git clone "https://github.com/Sceluswe/.vim/"
 cp ~/.vim/.vimrc ~
 ```
 
+If you're using Cygwin make sure you install Cygwins version of Git, otherwise gitgutter won't work.
 You might have to clone onedark anew. Sometimes it doesn't work.
+
 
 
 ## Packages
