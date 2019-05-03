@@ -3,29 +3,12 @@ My Vim setup using Pathogen as a package manager. It does not use submodules yet
 
 
 ## Installation
-If you're using Ubuntu or the Windows 10 Ubuntu Kernel:
+On Ubuntu or the Windows 10 Ubuntu Kernel, Debian or in Cygwin:
 
 ```
 cd ~
 git clone "https://github.com/Sceluswe/.vim/"
 cp ~/.vim/.vimrc ~
-```
-If you're using Debian:
-```
-cd ~
-git clone "https://github.com/Sceluswe/.vim"
-cp ~/.vim/.vimrc ~
-```
-
-If you're using Cygwin:
-```
-cd ~
-git clone "https://github.com/Sceluswe/.vim"
-mv .vim vim80
-cp vim80/.vimrc .
-rm vim80/README.md && rm vim80/.vimrc && rm -rf vim80/.git
-cp -rf vim80 ../../usr/share/vim/vim80
-rm -rf vim80
 ```
 
 You might have to clone onedark anew. Sometimes it doesn't work.
