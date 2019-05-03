@@ -57,5 +57,5 @@ The .vimrc file contains some of my prefered modifications and additional fixes.
 
 ## Fixed Issues
 - Change the airline and tabline to fit the overall style better.
-- Find out why the syntax checker currently doesn't work, fix it.
-- Replace buf-tabline, onedark and lightline submodules with actual files.
+- Fix syntax checker error.
+- Replace buf-tabline, onedark and lightline submodules with repo files.
